@@ -1,0 +1,7 @@
+J:\GameDev\C#\ijunior\iJuniorTask4\additionalTask6\bin\Debug\additionalTask6.exe.config
+J:\GameDev\C#\ijunior\iJuniorTask4\additionalTask6\bin\Debug\additionalTask6.exe
+J:\GameDev\C#\ijunior\iJuniorTask4\additionalTask6\bin\Debug\additionalTask6.pdb
+J:\GameDev\C#\ijunior\iJuniorTask4\additionalTask6\obj\Debug\additionalTask6.csprojAssemblyReference.cache
+J:\GameDev\C#\ijunior\iJuniorTask4\additionalTask6\obj\Debug\additionalTask6.csproj.CoreCompileInputs.cache
+J:\GameDev\C#\ijunior\iJuniorTask4\additionalTask6\obj\Debug\additionalTask6.exe
+J:\GameDev\C#\ijunior\iJuniorTask4\additionalTask6\obj\Debug\additionalTask6.pdb
