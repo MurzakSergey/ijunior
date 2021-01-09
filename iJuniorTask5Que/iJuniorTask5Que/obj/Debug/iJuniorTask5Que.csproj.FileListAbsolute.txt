@@ -1,0 +1,7 @@
+J:\GameDev\C#\ijunior\iJuniorTask5Que\iJuniorTask5Que\obj\Debug\iJuniorTask5Que.csprojAssemblyReference.cache
+J:\GameDev\C#\ijunior\iJuniorTask5Que\iJuniorTask5Que\obj\Debug\iJuniorTask5Que.csproj.CoreCompileInputs.cache
+J:\GameDev\C#\ijunior\iJuniorTask5Que\iJuniorTask5Que\bin\Debug\iJuniorTask5Que.exe.config
+J:\GameDev\C#\ijunior\iJuniorTask5Que\iJuniorTask5Que\bin\Debug\iJuniorTask5Que.exe
+J:\GameDev\C#\ijunior\iJuniorTask5Que\iJuniorTask5Que\bin\Debug\iJuniorTask5Que.pdb
+J:\GameDev\C#\ijunior\iJuniorTask5Que\iJuniorTask5Que\obj\Debug\iJuniorTask5Que.exe
+J:\GameDev\C#\ijunior\iJuniorTask5Que\iJuniorTask5Que\obj\Debug\iJuniorTask5Que.pdb
