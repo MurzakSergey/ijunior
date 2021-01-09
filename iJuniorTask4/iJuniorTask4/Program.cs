@@ -22,11 +22,14 @@ namespace iJuniorTask4
             Console.Write("Достаю из кармана:");
             amountOfGold = Convert.ToInt32(Console.ReadLine());
             Console.Write("Вот все, что есть!");
-            youGet = amountOfGold/(amountOfCristals * costOfCristal );
-            change = amountOfGold%(amountOfCristals * costOfCristal );
-            Console.Write("Получи свои " + youGet + " остальные " + change + " оставь себе");
+            bool enoughGold, notEnoughGold;
+            enoughGold = amountOfGold >= amountOfCristals * costOfCristal;
+            notEnoughGold = amountOfGold <= amountOfCristals * costOfCristal;
+            change = Convert.ToInt32(enoughGold) * (amountOfGold - amountOfCristals * costOfCristal); 
+            youGet = amountOfGold%(amountOfCristals * costOfCristal );
+            //Console.Write("Получи свои " + youGet + " остальные " + change + " оставь себе");
+            Console.Write("Получи свои " + amountOfCristals* Convert.ToInt32(enoughGold) + " кристралов, остальные " + (change + amountOfGold* Convert.ToInt32(notEnoughGold)) + " золотых оставь себе");
 
-            
 
             Console.ReadKey();
 
