@@ -30,45 +30,76 @@ namespace iJunior_topic_2
 
             // Практика - задание второе
 
-            double bitcoinUSD = 35000;
-            double amountOfBitcoin;
-            double usdBitcoin = 1/bitcoinUSD;
-            double amountOfUsd;
-            double answer;
+            //double bitcoinUSD = 35000;
+            //double amountOfBitcoin;
+            //double usdBitcoin = 1/bitcoinUSD;
+            //double amountOfUsd;
+            //double answer;
 
+
+            //Console.WriteLine("Что хотите купить?:" +
+            //    " Доллары - нажмите 1, " +
+            //    " Биткоин - нажмите 2");
+
+            //answer = Convert.ToDouble(Console.ReadLine());
+
+            //switch (answer)
+            //{
+            //    case 1:
+
+
+            //        Console.WriteLine("Сколько нужно долларов?:");
+
+            //        amountOfUsd = Convert.ToDouble(Console.ReadLine());
+            //        if (amountOfUsd != 1337)
+            //        {    
+            //            Console.WriteLine("С вас: " + amountOfUsd * usdBitcoin + " биткоинов");
+            //        }
+
+            //        else
+            //        { Console.WriteLine("Поздравляем! Вы выиграли ДЖЕКПОТ!"); }
+            //        break;
+
+            //    case 2:
+            //        Console.WriteLine("Сколько нужно биткоинов?:");
+            //        amountOfBitcoin = Convert.ToDouble(Console.ReadLine());
+            //        Console.WriteLine("С вас: " + amountOfBitcoin * bitcoinUSD + " долларов");
+
+            //        break;
+
+
+
+            //}
+
+            //
+
+            string password = "qwerty";
+            string answer;
            
-            Console.WriteLine("Что хотите купить?:" +
-                " Доллары - нажмите 1, " +
-                " Биткоин - нажмите 2");
+            int i = 1;
 
-            answer = Convert.ToDouble(Console.ReadLine());
+            while (i <= 5)
 
-            switch (answer)
             {
-                case 1:
+                Console.Write("Пароль! (угрожающе смотрю):");
+                answer = Console.ReadLine();
 
+                if (password != answer)
 
-                    Console.WriteLine("Сколько нужно долларов?:");
+                {
 
-                    amountOfUsd = Convert.ToDouble(Console.ReadLine());
-                    if (amountOfUsd != 1337)
-                    {    
-                        Console.WriteLine("С вас: " + amountOfUsd * usdBitcoin + " биткоинов");
-                    }
+                    Console.WriteLine("Пароль неверный");
+                    i++;
+                }
 
-                    else
-                    { Console.WriteLine("Поздравляем! Вы выиграли ДЖЕКПОТ!"); }
+                else
+
+                {
+                    Console.WriteLine("Угадал с " + i + " попытки");
                     break;
+                }
 
-                case 2:
-                    Console.WriteLine("Сколько нужно биткоинов?:");
-                    amountOfBitcoin = Convert.ToDouble(Console.ReadLine());
-                    Console.WriteLine("С вас: " + amountOfBitcoin * bitcoinUSD + " долларов");
-
-                    break;
-
-
-
+               
             }
 
 
