@@ -76,9 +76,9 @@ namespace iJunior_topic_2
             string password = "qwerty";
             string answer;
            
-            int i = 1;
+            int attempts = 1;
 
-            while (i <= 5)
+            while (attempts <= 5)
 
             {
                 Console.Write("Пароль! (угрожающе смотрю):");
@@ -88,14 +88,14 @@ namespace iJunior_topic_2
 
                 {
 
-                    Console.WriteLine("Пароль неверный");
-                    i++;
+                    Console.WriteLine("Пароль неверный, у вас осталось " + (5-attempts) + " попыток");
+                    attempts++;
                 }
 
                 else
 
                 {
-                    Console.WriteLine("Угадал с " + i + " попытки");
+                    Console.WriteLine("Угадал с " + attempts + " попытки");
                     break;
                 }
 
