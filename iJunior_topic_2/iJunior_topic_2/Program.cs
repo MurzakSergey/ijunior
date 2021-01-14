@@ -71,36 +71,118 @@ namespace iJunior_topic_2
 
             //}
 
-            //
+            //Задание 4, с использованием for
 
-            string password = "qwerty";
-            string answer;
-           
-            int attempts = 1;
+            // string password = "qwerty";
+            // string answer;
 
-            while (attempts <= 5)
+
+            //int attempts;
+
+            //for (attempts = 1; attempts <= 5; attempts++)
+
+            // {
+            //     Console.Write("Пароль! (угрожающе смотрю):");
+            //     answer = Console.ReadLine();
+
+            //     if (password != answer)
+
+            //     {
+
+            //         Console.WriteLine("Пароль неверный, у вас осталось " + (5-attempts) + " попыток");
+
+            //     }
+
+            //     else
+
+            //     {
+            //         Console.WriteLine("Угадал с " + attempts + " попытки");
+            //         break;
+            //     }
+
+
+
+            // }
+
+            //Задание 4, с использованием while (но лучше использовать for  т.к., мы знаем количество итераций
+
+            //string password = "qwerty";
+            //string answer;
+
+
+            //int attempts=1;
+
+            //while (attempts <= 5)
+
+            //{
+            //    Console.Write("Пароль! (угрожающе смотрю):");
+            //    answer = Console.ReadLine();
+
+            //    if (password != answer)
+
+            //    {
+
+            //        Console.WriteLine("Пароль неверный, у вас осталось " + (5 - attempts) + " попыток");
+
+            //                         attempts++;
+            //    }
+
+            //    else
+
+            //    {
+            //        Console.WriteLine("Угадал с " + attempts + " попытки");
+            //        break;
+            //    }
+
+
+            //}
+
+
+            // Задание 5
+
+            double amountOfMoney;
+            int years;
+            int waitingYears;
+            double percent = 5.5;
+            
+
+            Console.Write("Сколько хотите положить на счет?: ");
+            amountOfMoney = Convert.ToDouble(Console.ReadLine());
+            Console.Write("На какой срок?: ");
+            years = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("С учетом процентной ставки " + percent + " вот ваш доход по годам: ");
+
+            // 
+
+            //while ( years >= 0)
+            //{
+                
+            //    Console.WriteLine("Ваш доход за " + waitingYears + " год "+ " составит " + amountOfMoney);
+            //    amountOfMoney += amountOfMoney*(percent/100);
+
+            //    years--;
+            //    waitingYears++;
+
+            // }
+
+            for (waitingYears = 0; waitingYears <= years; waitingYears++)
 
             {
-                Console.Write("Пароль! (угрожающе смотрю):");
-                answer = Console.ReadLine();
+                Console.WriteLine("Ваш доход за " + waitingYears + " год " + " составит " + amountOfMoney);
+                amountOfMoney += amountOfMoney*(percent/100);
 
-                if (password != answer)
+                
 
-                {
 
-                    Console.WriteLine("Пароль неверный, у вас осталось " + (5-attempts) + " попыток");
-                    attempts++;
-                }
-
-                else
-
-                {
-                    Console.WriteLine("Угадал с " + attempts + " попытки");
-                    break;
-                }
-
-               
             }
+
+
+
+
+
+
+
+
 
 
             Console.ReadKey();
