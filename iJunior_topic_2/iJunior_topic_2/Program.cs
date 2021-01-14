@@ -152,11 +152,11 @@ namespace iJunior_topic_2
             years = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("С учетом процентной ставки " + percent + " вот ваш доход по годам: ");
 
-            // 
+            // с использованием while (но лучше использовать for  т.к., мы знаем количество итераций
 
             //while ( years >= 0)
             //{
-                
+
             //    Console.WriteLine("Ваш доход за " + waitingYears + " год "+ " составит " + amountOfMoney);
             //    amountOfMoney += amountOfMoney*(percent/100);
 

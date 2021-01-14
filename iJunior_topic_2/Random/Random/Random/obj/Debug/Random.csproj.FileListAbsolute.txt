@@ -1,0 +1,7 @@
+J:\GameDev\C#\ijunior\iJunior_topic_2\Random\Random\Random\obj\Debug\Random.csprojAssemblyReference.cache
+J:\GameDev\C#\ijunior\iJunior_topic_2\Random\Random\Random\obj\Debug\Random.csproj.CoreCompileInputs.cache
+J:\GameDev\C#\ijunior\iJunior_topic_2\Random\Random\Random\bin\Debug\Random.exe.config
+J:\GameDev\C#\ijunior\iJunior_topic_2\Random\Random\Random\bin\Debug\Random.exe
+J:\GameDev\C#\ijunior\iJunior_topic_2\Random\Random\Random\bin\Debug\Random.pdb
+J:\GameDev\C#\ijunior\iJunior_topic_2\Random\Random\Random\obj\Debug\Random.exe
+J:\GameDev\C#\ijunior\iJunior_topic_2\Random\Random\Random\obj\Debug\Random.pdb
