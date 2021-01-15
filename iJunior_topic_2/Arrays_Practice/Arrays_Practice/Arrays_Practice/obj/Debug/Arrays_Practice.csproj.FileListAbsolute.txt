@@ -1,0 +1,7 @@
+J:\GameDev\C#\ijunior\iJunior_topic_2\Arrays_Practice\Arrays_Practice\Arrays_Practice\bin\Debug\Arrays_Practice.exe.config
+J:\GameDev\C#\ijunior\iJunior_topic_2\Arrays_Practice\Arrays_Practice\Arrays_Practice\bin\Debug\Arrays_Practice.exe
+J:\GameDev\C#\ijunior\iJunior_topic_2\Arrays_Practice\Arrays_Practice\Arrays_Practice\bin\Debug\Arrays_Practice.pdb
+J:\GameDev\C#\ijunior\iJunior_topic_2\Arrays_Practice\Arrays_Practice\Arrays_Practice\obj\Debug\Arrays_Practice.csprojAssemblyReference.cache
+J:\GameDev\C#\ijunior\iJunior_topic_2\Arrays_Practice\Arrays_Practice\Arrays_Practice\obj\Debug\Arrays_Practice.csproj.CoreCompileInputs.cache
+J:\GameDev\C#\ijunior\iJunior_topic_2\Arrays_Practice\Arrays_Practice\Arrays_Practice\obj\Debug\Arrays_Practice.exe
+J:\GameDev\C#\ijunior\iJunior_topic_2\Arrays_Practice\Arrays_Practice\Arrays_Practice\obj\Debug\Arrays_Practice.pdb
