@@ -10,39 +10,88 @@ namespace WhatIsTheNumber
     {
         static void Main(string[] args)
         {
-            int larger, lower, number, answer;
-            int attempts = 2;
-            lower = 1;
-            larger = 100;
+            //int larger, lower, number, answer;
+            //int attempts = 2;
+            //lower = 1;
+            //larger = 100;
+            //Random rand = new Random();
+            //number = rand.Next(lower, larger);
+            //Console.WriteLine("Угадайте число от " + lower + " до " + (larger - 1) + " с " + attempts + " попыток: ");
+            //for (int i=1; i<=attempts; i++)
+            //{                            
+            //    answer = Convert.ToInt32(Console.ReadLine());
+
+            //    if (i == attempts && answer != number)
+            //    {
+            //        Console.WriteLine("Может повезет в следующий раз! Это было число " + number + "!");
+            //        break;    
+            //    }
+
+
+            //    if (answer == number)
+            //    {
+            //        Console.WriteLine("Вау! Угадал! Это и правда " + number);
+
+            //    }
+
+            //    else
+            //    {
+            //        Console.WriteLine("У тебя " + (attempts - i) + " попыток" + "                       подсказка, только тихо! это" + number);
+
+            //    }
+
+
+
+            //    }
+
             Random rand = new Random();
-            number = rand.Next(lower, larger);
-            Console.WriteLine("Угадайте число от " + lower + " до " + (larger - 1) + " с " + attempts + " попыток: ");
-            for (int i=1; i<=attempts; i++)
-            {                            
-                answer = Convert.ToInt32(Console.ReadLine());
+            double heroHP = rand.Next(90,100);
+            double enemyHP = rand.Next(60,75);
+            
+            
+            double heroArmor = rand.Next(20, 50);
+            double enemyArmor = rand.Next(10, 25);
 
-                if (i == attempts && answer != number)
+            while (heroHP >= 0 && enemyHP >=0)
+            {
+                
+
+                double heroDamage = rand.Next(25, 100);
+                double enemyDamge = rand.Next(100, 290);
+
+                Console.WriteLine("Hero HP = " + heroHP + " Enemy HP = " + enemyHP);
+                Console.WriteLine("Hero hits " + heroDamage + " Enemy hits " + enemyDamge);
+                heroHP -= enemyDamge / heroArmor;
+                enemyHP -= heroDamage /enemyArmor;
+
+
+                if (heroHP <= 0 && enemyHP <=0)
                 {
-                    Console.WriteLine("Может повезет в следующий раз! Это было число " + number + "!");
-                    break;    
+                    Console.WriteLine("Draw!");
                 }
 
-
-                if (answer == number)
+                else if (enemyHP <= 0)
+                
                 {
-                    Console.WriteLine("Вау! Угадал! Это и правда " + number);
-
+                    Console.WriteLine("Hero wins!");
                 }
 
-                else
+                else if (heroHP <= 0)
                 {
-                    Console.WriteLine("У тебя " + (attempts - i) + " попыток" + "                       подсказка, только тихо! это" + number);
-                                    
+                    Console.WriteLine("Enemy wins!");
                 }
 
                 
 
-                }
+            }
+
+
+            Console.ReadKey();
+            
+            
+
+
+
 
             
 
