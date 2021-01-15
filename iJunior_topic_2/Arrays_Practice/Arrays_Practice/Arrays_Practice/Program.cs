@@ -37,52 +37,81 @@ namespace Arrays_Practice
             int placesToBook;
             bool isDoorOpen=true;
 
+            
 
             while (isDoorOpen)
             {
-                Console.WriteLine(" \n To show table list - press 1\n To book a place - press 2\n To exit - press 3\n");
+                Console.SetCursorPosition(5, 0);
+                Console.WriteLine("Welcome to sharPab! \n");
+                Console.SetCursorPosition(0, 15);
+                for (int i = 0; i < freePlaces.Length; i++)
+                {
+                    
+                    Console.WriteLine("At the table nomber " + (i + 1) + " are " + freePlaces[i] + " free sits");
+                }
+
+                Console.SetCursorPosition(0, 3);
+                Console.WriteLine(" \n To book a place - press 1\n To exit - press 2\n");
 
 
                 switch (Convert.ToInt32(Console.ReadLine()))
                 
                 {
                     case 1:
-                        Console.Clear();
-                        for (int i = 0; i < freePlaces.Length; i++)
-                        {
-                            Console.WriteLine("At the table nomber " + (i + 1) + " are " + freePlaces[i] + " free sits");
-                        }
 
-
-                        break;
-
-                    case 2:
-                        Console.Clear();
-                        Console.Write("At what table do you whan to book a place:");
+                        Console.WriteLine("At what table do you whan to book a place:");
                         tableToBook = Convert.ToInt32 (Console.ReadLine());
-                        Console.WriteLine("How many?: ");
-                        placesToBook = Convert.ToInt32(Console.ReadLine());
-                        freePlaces[tableToBook-1] -= placesToBook;
-                        if (freePlaces[tableToBook - 1] >= 0)
+                        if (tableToBook > freePlaces.Length || tableToBook <= 0)
                         {
-                            for (int book = 0; book < freePlaces.Length; book++)
-                            {
-                                Console.WriteLine("At the table nomber " + (book + 1) + " are " + freePlaces[book] + " free sits");
-                            }
+                            Console.Clear();
+                            Console.SetCursorPosition(0, 2);
+                            Console.WriteLine("There is no that table");
                         }
 
                         else
                         {
-                            Console.WriteLine("At this table only " + (freePlaces[tableToBook - 1] + placesToBook) + " free sits");
+                            Console.WriteLine("How many?: ");
+                            placesToBook = Convert.ToInt32(Console.ReadLine());
+                            freePlaces[tableToBook - 1] -= placesToBook;
+                            
+                            Console.Clear();
+
+                            if (freePlaces[tableToBook - 1] < 0)
+                            {
+                                Console.SetCursorPosition(0, 2);
+                                Console.WriteLine(" At this table are " + (freePlaces[tableToBook - 1] + placesToBook) + " free sits, and you need " + placesToBook+"\n\n" );
+                                freePlaces[tableToBook - 1] += placesToBook;
+                            }
+
+                            else if (placesToBook <= 0)
+                            {
+                                Console.SetCursorPosition(0, 2);
+                                Console.WriteLine("Wrong number of places!");
+                                freePlaces[tableToBook - 1] += placesToBook;
+                                
+                            }
+
+                            else
+
+                            {
+                                Console.SetCursorPosition(0, 2);
+                                Console.WriteLine("Succsecely booked!");
+                            }
+
+
+                            
+
                         }
 
                         break;
 
-                case 3:
+                case 2:
                         isDoorOpen = false;     
                     break;
 
                 }
+
+                
 
                 
                 
