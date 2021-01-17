@@ -56,7 +56,7 @@ namespace Arrays_Practice
 
                 switch (Convert.ToInt32(Console.ReadLine()))
                 
-                {
+                
                     case 1:
 
                         Console.WriteLine("At what table do you whan to book a place:");
