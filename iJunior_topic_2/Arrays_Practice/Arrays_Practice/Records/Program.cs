@@ -15,15 +15,17 @@ namespace Library
             { "Trentemeller", "Phantogramm", "St.Vinsent", "Depesh Mode", "Dua Lipa"} };
 
             Console.WriteLine("Type smtn");
-            
 
-                for ( int i = 0; i < records.GetLength(0); i++ )
+
+            for (int i = 0; i < records.GetLength(0); i++)
+                
 
             {
+                Console.Write("\n");
                 for (int j = 0; j < records.GetLength(1); j++)
 
                 {
-                    Console.Write(records[i, j]);
+                    Console.Write(records[i, j] + " | ");
 
                 }
 
