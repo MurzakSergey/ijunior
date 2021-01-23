@@ -1,0 +1,14 @@
+C:\Users\murza\source\repos\Librarн\Librarн\bin\Debug\Librarн.exe.config
+C:\Users\murza\source\repos\Librarн\Librarн\bin\Debug\Librarн.exe
+C:\Users\murza\source\repos\Librarн\Librarн\bin\Debug\Librarн.pdb
+C:\Users\murza\source\repos\Librarн\Librarн\obj\Debug\Library.csprojAssemblyReference.cache
+C:\Users\murza\source\repos\Librarн\Librarн\obj\Debug\Library.csproj.CoreCompileInputs.cache
+C:\Users\murza\source\repos\Librarн\Librarн\obj\Debug\Librarн.exe
+C:\Users\murza\source\repos\Librarн\Librarн\obj\Debug\Librarн.pdb
+J:\GameDev\C#\ijunior\iJunior_topic_2\Librarн\Librarн\bin\Debug\Librarн.exe.config
+J:\GameDev\C#\ijunior\iJunior_topic_2\Librarн\Librarн\bin\Debug\Librarн.exe
+J:\GameDev\C#\ijunior\iJunior_topic_2\Librarн\Librarн\bin\Debug\Librarн.pdb
+J:\GameDev\C#\ijunior\iJunior_topic_2\Librarн\Librarн\obj\Debug\Library.csprojAssemblyReference.cache
+J:\GameDev\C#\ijunior\iJunior_topic_2\Librarн\Librarн\obj\Debug\Library.csproj.CoreCompileInputs.cache
+J:\GameDev\C#\ijunior\iJunior_topic_2\Librarн\Librarн\obj\Debug\Librarн.exe
+J:\GameDev\C#\ijunior\iJunior_topic_2\Librarн\Librarн\obj\Debug\Librarн.pdb

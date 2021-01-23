@@ -55,7 +55,7 @@ namespace Arrays_Practice
 
 
                 switch (Convert.ToInt32(Console.ReadLine()))
-                
+                { 
                 
                     case 1:
 
