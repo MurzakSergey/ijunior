@@ -1,0 +1,7 @@
+J:\GameDev\C#\ijunior\iJunior_topic_2\TheGame\Truffles\Truffles\bin\Debug\Truffles.exe.config
+J:\GameDev\C#\ijunior\iJunior_topic_2\TheGame\Truffles\Truffles\bin\Debug\Truffles.exe
+J:\GameDev\C#\ijunior\iJunior_topic_2\TheGame\Truffles\Truffles\bin\Debug\Truffles.pdb
+J:\GameDev\C#\ijunior\iJunior_topic_2\TheGame\Truffles\Truffles\obj\Debug\Truffles.csprojAssemblyReference.cache
+J:\GameDev\C#\ijunior\iJunior_topic_2\TheGame\Truffles\Truffles\obj\Debug\Truffles.csproj.CoreCompileInputs.cache
+J:\GameDev\C#\ijunior\iJunior_topic_2\TheGame\Truffles\Truffles\obj\Debug\Truffles.exe
+J:\GameDev\C#\ijunior\iJunior_topic_2\TheGame\Truffles\Truffles\obj\Debug\Truffles.pdb
