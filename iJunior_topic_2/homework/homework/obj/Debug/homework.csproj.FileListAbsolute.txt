@@ -1,0 +1,7 @@
+J:\GameDev\C#\ijunior\iJunior_topic_2\homework\homework\bin\Debug\homework.exe.config
+J:\GameDev\C#\ijunior\iJunior_topic_2\homework\homework\bin\Debug\homework.exe
+J:\GameDev\C#\ijunior\iJunior_topic_2\homework\homework\bin\Debug\homework.pdb
+J:\GameDev\C#\ijunior\iJunior_topic_2\homework\homework\obj\Debug\homework.csprojAssemblyReference.cache
+J:\GameDev\C#\ijunior\iJunior_topic_2\homework\homework\obj\Debug\homework.csproj.CoreCompileInputs.cache
+J:\GameDev\C#\ijunior\iJunior_topic_2\homework\homework\obj\Debug\homework.exe
+J:\GameDev\C#\ijunior\iJunior_topic_2\homework\homework\obj\Debug\homework.pdb
