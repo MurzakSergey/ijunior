@@ -1,0 +1,7 @@
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\functions\functions\bin\Debug\functions.exe.config
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\functions\functions\bin\Debug\functions.exe
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\functions\functions\bin\Debug\functions.pdb
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\functions\functions\obj\Debug\functions.csprojAssemblyReference.cache
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\functions\functions\obj\Debug\functions.csproj.CoreCompileInputs.cache
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\functions\functions\obj\Debug\functions.exe
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\functions\functions\obj\Debug\functions.pdb
