@@ -13,7 +13,10 @@ namespace functions2
             int r = 3;
             int t = 5;
             int rPlusT;
-            rPlusT = Sum(r, t)+r*t;
+            ConsoleColor color = ConsoleColor.Blue;
+            Console.ForegroundColor = color;
+            Console.WriteLine("What are you waiting for?");
+            rPlusT = Sum(r, t, color = ConsoleColor.Yellow) +r*t;
 
 
             Console.WriteLine(rPlusT);
@@ -21,15 +24,19 @@ namespace functions2
             Console.ReadLine();
         }
 
-        static int Sum(int x, int y)
+        static int Sum(int x, int y, ConsoleColor font = ConsoleColor.Red)
             {
 
             //return x + y;
             // or 
 
+            Console.ForegroundColor = font;
             int sum;
             sum = x + y;
+            int mus = x - y;
             return sum;
+           // return mus; второй возврат уже не получился, т.к., можно сделать только один
+
             
 
             
