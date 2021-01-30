@@ -1,0 +1,7 @@
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\skillbox\methods_skill_l1\methods_lesson_1\bin\Debug\methods_lesson_1.exe.config
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\skillbox\methods_skill_l1\methods_lesson_1\bin\Debug\methods_lesson_1.exe
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\skillbox\methods_skill_l1\methods_lesson_1\bin\Debug\methods_lesson_1.pdb
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\skillbox\methods_skill_l1\methods_lesson_1\obj\Debug\methods_lesson_1.csprojAssemblyReference.cache
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\skillbox\methods_skill_l1\methods_lesson_1\obj\Debug\methods_lesson_1.csproj.CoreCompileInputs.cache
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\skillbox\methods_skill_l1\methods_lesson_1\obj\Debug\methods_lesson_1.exe
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\skillbox\methods_skill_l1\methods_lesson_1\obj\Debug\methods_lesson_1.pdb
