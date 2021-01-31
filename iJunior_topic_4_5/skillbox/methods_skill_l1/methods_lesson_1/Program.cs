@@ -22,10 +22,15 @@ namespace methods_lesson_1
             int rschool = r1020.Next(5, 15);
             int[] kindergarden = new int[rkind];
             int[] school = new int[rschool];
+            string yahoo = "Yahoo!";
+            string horai = "Horaiii!";
+
 
             Children(kindergarden, 1, 75);
 
             Children(school, 1, 100);
+            Applouse();
+            Applouse2(yahoo, horai, 29);
             Console.ReadLine();
             
          }
@@ -49,8 +54,31 @@ namespace methods_lesson_1
 
             Console.Write("\n"+"Max is " + maxVal +"\n\n");
         }
-         
+
+       static void Applouse()
+        {
+            Random rand = new Random();
+
+            for (int i=0; i <rand.Next(30, 50); i++)
+            {
+
+              Console.Write(rand.Next(2)==0 ? "Yahoo!":"Horai");
+
+            }
+           
+        }  //пример метода который ничечго не принимает и не возвращает
+       static void Applouse2(string greetings1, string greetings2, int length)
+        {
+            Random rand = new Random();
+
+            for (int i = 0; i < rand.Next(1, length); i++)
+            {
+                Console.Write(rand.Next(2) == 0 ? greetings1 + " ": greetings2);
+
+            }
+
+        }  //пример метода который принимает значения
 
 
-     }
+    }
 }
