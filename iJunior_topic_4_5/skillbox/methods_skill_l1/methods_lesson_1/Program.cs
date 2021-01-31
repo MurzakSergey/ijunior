@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace methods_lesson_1
@@ -31,9 +32,14 @@ namespace methods_lesson_1
             Children(school, 1, 100);
             Applouse();
             Applouse2(yahoo, horai, 29);
+            Console.WriteLine(RandomHi());
+
+            Console.WriteLine("\n" + Guid.NewGuid().ToString().Substring(0, 10));
+            Console.WriteLine("\n" + RandomString(30));
             Console.ReadLine();
-            
-         }
+            // Thread.Sleep(3000); // Задержка - но, нужно добавлять using System.Threading;
+
+        }
         static void Children(int[] array, int min, int max)
         {
             Random r1020 = new Random();
@@ -78,6 +84,38 @@ namespace methods_lesson_1
             }
 
         }  //пример метода который принимает значения
+       
+       static string RandomHi()
+        {
+            string h1 = String.Empty;
+            Random random1to5 = new Random();
+            switch (random1to5.Next(1,3))
+            {
+                case 0:
+                    h1 = "lol"; break;
+                case 1:
+                    h1 = "meow!"; break;
+                case 2:
+                    h1 = "no othw blood in me but mine"; break; 
+                  
+            }
+
+            Console.WriteLine("\n");
+            return h1;
+            
+        } //Возвращает, но не берет
+
+       static string RandomString(int lenthRS)
+        {
+            return Guid.NewGuid().ToString().Substring(0, lenthRS);
+        } // Берет и возвращает
+
+       
+
+       
+
+
+ 
 
 
     }
