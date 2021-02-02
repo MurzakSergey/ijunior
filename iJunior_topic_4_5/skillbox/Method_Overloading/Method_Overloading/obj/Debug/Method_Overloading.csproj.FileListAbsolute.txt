@@ -1,0 +1,7 @@
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\skillbox\Method_Overloading\Method_Overloading\bin\Debug\Method_Overloading.exe.config
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\skillbox\Method_Overloading\Method_Overloading\bin\Debug\Method_Overloading.exe
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\skillbox\Method_Overloading\Method_Overloading\bin\Debug\Method_Overloading.pdb
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\skillbox\Method_Overloading\Method_Overloading\obj\Debug\Method_Overloading.csprojAssemblyReference.cache
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\skillbox\Method_Overloading\Method_Overloading\obj\Debug\Method_Overloading.csproj.CoreCompileInputs.cache
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\skillbox\Method_Overloading\Method_Overloading\obj\Debug\Method_Overloading.exe
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\skillbox\Method_Overloading\Method_Overloading\obj\Debug\Method_Overloading.pdb

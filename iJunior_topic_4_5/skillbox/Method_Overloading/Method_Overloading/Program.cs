@@ -1,0 +1,50 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Method_Overloading
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            int lol = sum(new int[] { 1, 2, 2 }); // берем сумму из первого метода, где в качестве переменной передается только массив
+            Console.WriteLine(lol);
+            lol = sum(1, 2, 5, 123); // так как использовали в качестве переменных не массив, а числа, то бепертся вторая перегрузка, где 
+                                     // сначала берется единице в качестве аргумента переменной key, а остальные аргументы через params передается в массив 
+            Console.WriteLine(lol);
+            Console.ReadLine();
+        }
+
+        static int sum(params int[] array)
+        {
+            int result = 0;
+            foreach (var s in array)
+            {
+                result += s;
+
+            }
+            return result;            
+        }
+        static int sum(int key, params int[] array)
+        {
+            int result = 0;
+           foreach (var s in array)
+            {
+                result += s;
+
+            }
+
+            Console.WriteLine("Type multilplication factor: ");
+            key = Convert.ToInt32(Console.ReadLine());
+            result *= key;
+            return result;
+        }
+
+
+
+    }
+}
