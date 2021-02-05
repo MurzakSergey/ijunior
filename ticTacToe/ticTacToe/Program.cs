@@ -20,58 +20,70 @@ namespace ticTacToe
            {'|',' ','|',' ','|',' ','|'},
            {'T','T','T','T','T','T','T'}};
 
-            bool xMove = true;
+            bool itsNotTheEnd = true;
             int xPos = 1;
             int yPos = 1;
+            char symbol = 'X';
 
-            while (xMove)
+            while (itsNotTheEnd)                                                             //Начало хода
             {
-                Console.SetCursorPosition(0, 0);
+                
+                bool xMove = true;
+                while (xMove)
+                {
+                    Console.SetCursorPosition(0, 0);
+                    //int[,] win = new int[7, 7];
+
                 for (int i= 0; i<map.GetLength(0); i++)
-            { for (int j = 0; j < map.GetLength(1); j++)
+                { for (int j = 0; j < map.GetLength(1); j++)
                 {
                     Console.Write(map[i, j]);
+                    //Console.Write(i + " " + j);
                 }
-                Console.Write("\n");
-            }
-            
-            
-            char symbol ='X';
-            
-            Console.SetCursorPosition(xPos, yPos);
-            Console.WriteLine(symbol);
-            ConsoleKeyInfo move = Console.ReadKey();
-            
-            
-           
-                switch (move.Key)
-                {
-                    case ConsoleKey.DownArrow:
-                        if (yPos <= 3) yPos = yPos + 2;
-                        else Console.ForegroundColor = ConsoleColor.Green;
-                        break;
+                        Console.Write("\n");
+                    }
 
-                    case ConsoleKey.UpArrow:
-                        if (yPos > 1) yPos = yPos - 2;
-                        else Console.ForegroundColor = ConsoleColor.Yellow;
-                        break;
+                
+                
+                    
 
-                    case ConsoleKey.LeftArrow:
-                        if (xPos > 1) xPos = xPos - 2;
-                        else Console.ForegroundColor = ConsoleColor.Red;
-                        break;
+                    Console.SetCursorPosition(xPos, yPos);
+                    Console.WriteLine(symbol);
+                    ConsoleKeyInfo move = Console.ReadKey();
+                    
 
-                    case ConsoleKey.RightArrow:
-                        if (xPos <= 3) xPos = xPos + 2;
-                        else Console.ForegroundColor = ConsoleColor.Cyan;
-                        break;
 
-                    case ConsoleKey.Enter:
-                        map[yPos, xPos] = 'X';
-                        symbol = 'O';
-                       // xMove = false;
-                        break;
+                    switch (move.Key)
+                    {
+                        case ConsoleKey.DownArrow:
+                            if (yPos <= 3) yPos = yPos + 2;
+                            else Console.ForegroundColor = ConsoleColor.Green;
+                            break;
 
+                        case ConsoleKey.UpArrow:
+                            if (yPos > 1) yPos = yPos - 2;
+                            else Console.ForegroundColor = ConsoleColor.Yellow;
+                            break;
+
+                        case ConsoleKey.LeftArrow:
+                            if (xPos > 1) xPos = xPos - 2;
+                            else Console.ForegroundColor = ConsoleColor.Red;
+                            break;
+
+                        case ConsoleKey.RightArrow:
+                            if (xPos <= 3) xPos = xPos + 2;
+                            else Console.ForegroundColor = ConsoleColor.Cyan;
+                            break;
+
+                        case ConsoleKey.Enter:
+                            map[yPos, xPos] = 'X';
+                            symbol = 'O';
+                            xMove = false;
+                            break;
+
+                    }
+
+                    Console.Clear();
                 }
 
             }
@@ -80,7 +92,40 @@ namespace ticTacToe
             Console.ReadLine();
 
         }
-        
+        //static void PlayerMove()
+        //{
+        //    ConsoleKeyInfo move = Console.ReadKey();
+        //    int yPos = 0;
+        //    int xPos = 0;
+
+        //    switch (move.Key)
+        //    {
+        //        case ConsoleKey.DownArrow:
+        //            if (yPos <= 3) yPos = yPos + 2;
+        //            else Console.ForegroundColor = ConsoleColor.Green;
+        //            break;
+
+        //        case ConsoleKey.UpArrow:
+        //            if (yPos > 1) yPos = yPos - 2;
+        //            else Console.ForegroundColor = ConsoleColor.Yellow;
+        //            break;
+
+        //        case ConsoleKey.LeftArrow:
+        //            if (xPos > 1) xPos = xPos - 2;
+        //            else Console.ForegroundColor = ConsoleColor.Red;
+        //            break;
+
+        //        case ConsoleKey.RightArrow:
+        //            if (xPos <= 3) xPos = xPos + 2;
+        //            else Console.ForegroundColor = ConsoleColor.Cyan;
+        //            break;
+
+        //        case ConsoleKey.Enter:
+        //            map[yPos, xPos] = 'X';
+        //            char symbol = 'O';
+        //            bool xMove = false;
+        //            break;
+        //    }
 
     }
 }
