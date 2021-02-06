@@ -1,0 +1,7 @@
+J:\GameDev\C#\ijunior\ticTacToe\ticTacToe\bin\Release\ticTacToe.exe.config
+J:\GameDev\C#\ijunior\ticTacToe\ticTacToe\bin\Release\ticTacToe.exe
+J:\GameDev\C#\ijunior\ticTacToe\ticTacToe\bin\Release\ticTacToe.pdb
+J:\GameDev\C#\ijunior\ticTacToe\ticTacToe\obj\Release\ticTacToe.csprojAssemblyReference.cache
+J:\GameDev\C#\ijunior\ticTacToe\ticTacToe\obj\Release\ticTacToe.csproj.CoreCompileInputs.cache
+J:\GameDev\C#\ijunior\ticTacToe\ticTacToe\obj\Release\ticTacToe.exe
+J:\GameDev\C#\ijunior\ticTacToe\ticTacToe\obj\Release\ticTacToe.pdb
