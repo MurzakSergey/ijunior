@@ -25,7 +25,7 @@ namespace ticTacToe
            {'|',' ',' ',' ','|',' ',' ',' ','|',' ',' ',' ','|'},
            {'T','T','T','T','T','T','T','T','T','T','T','T','T'}}; // the map
                 int itsNotTheEnd = 1;
-                int consoleShift = 10;
+                int consoleShift = 8;
                 int xPos = consoleShift + 1;
                 int yPos = consoleShift + 1;
                 int moveCounting = 0;
@@ -67,7 +67,7 @@ namespace ticTacToe
                                 {
                                     Console.SetCursorPosition(consoleShift + 1, consoleShift + 8);
                                     Console.WriteLine("Here is " + map[yPos - consoleShift, xPos + 1 - consoleShift] + " already!");
-                                    Thread.Sleep(1000);
+                                    Thread.Sleep(700);
                                     break;
                                 }
                                 map[yPos - consoleShift, xPos + 1 - consoleShift] = player;
@@ -113,7 +113,7 @@ namespace ticTacToe
                                 {
                                     Console.SetCursorPosition(consoleShift + 1, consoleShift + 8);
                                     Console.WriteLine("Here is " + map[yPos - consoleShift, xPos + 1 - consoleShift] + " already!");
-                                    Thread.Sleep(1000);
+                                    Thread.Sleep(700);
                                     break;
                                 }
                                 map[yPos - consoleShift, xPos + 1 - consoleShift] = player;
@@ -132,6 +132,7 @@ namespace ticTacToe
 
                 }
 
+                //Drawing after wining or a draw
                 Console.SetCursorPosition(consoleShift, consoleShift);
                 for (int i = 0; i < map.GetLength(0); i++)
                 {
@@ -148,17 +149,15 @@ namespace ticTacToe
                     }
                 }
                 Kitten(consoleShift);
-                Console.SetCursorPosition(consoleShift+10, consoleShift+16);
+                Console.SetCursorPosition(consoleShift+7, consoleShift+16);
                 Console.ForegroundColor = ConsoleColor.Yellow;
-                if (itsNotTheEnd == 2) Console.WriteLine("Draw!");
+                if (itsNotTheEnd == 2) Console.WriteLine("Draw!"); 
                 else Console.WriteLine(player + " wins!");
                 Thread.Sleep(500);
                 Console.SetCursorPosition(consoleShift, consoleShift+17);
                 Console.WriteLine("To restart press <Enter>, and any key to exit");
-                
-
-
                 Thread.Sleep(1500);
+
                 ConsoleKeyInfo restart = Console.ReadKey();
                 if (restart.Key == ConsoleKey.Enter)
                 {
@@ -171,6 +170,8 @@ namespace ticTacToe
 
 
         }
+
+        //Cheking win or draw
         static int Chek(char xOrY, int itsNotTheEnd, int moveCounting, char[,] map)
         {
 
@@ -218,13 +219,15 @@ namespace ticTacToe
 
             return itsNotTheEnd;
 
-        }
+        } 
+
+        //Drawing a map
         static void Map(char player, int consoleShift, int xPos, int yPos, char[,] map)
         {
             Console.ForegroundColor = ConsoleColor.White;
 
             Console.SetCursorPosition(consoleShift - 8, consoleShift - 5);
-            Console.WriteLine("Use arrors to move and <Enter> to put a " + player);
+            Console.WriteLine("Use arrors to move and <Enter> to put an " + player);
             Console.SetCursorPosition(consoleShift + 2, consoleShift - 3);
             Console.WriteLine(player + " move");
             Console.SetCursorPosition(consoleShift, consoleShift);
@@ -249,21 +252,23 @@ namespace ticTacToe
             Console.SetCursorPosition(xPos + 2, yPos);
             Console.WriteLine("]");
         }
+
+        //Drawing a referee
         static void Kitten(int consoleShift)
         {
             char[,] Kitten =
              {
-           { ' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' '},
-           { ' ',' ','|',' ',' ',' ',' ',' ',' ',' ','|',' ',' '},
-           { ' ',' ','|','-','-','-','-','-','-','-','|',' ',' '},
-           { ' ',' ','|',' ',' ',' ',' ',' ',' ',' ','|',' ',' '},
-           { ' ',' ','|',' ','Y',' ',' ',' ','Y',' ','|',' ',' '},
-           { ' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' '},
-           { ' ','-','-','-',' ',' ','T',' ',' ','-','-','-',' '},
-           { ' ','-','-','-','_',' ','.',' ','_','-','-','-',' '},
-           { ' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' '}, };
+           {' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' '},
+           { ' ',' ',' ','|',' ',' ',' ',' ',' ',' ',' ','|',' ',' '},
+           { ' ',' ',' ','|','-','-','-','-','-','-','-','|',' ',' '},
+           { ' ',' ',' ','|',' ',' ',' ',' ',' ',' ',' ','|',' ',' '},
+           { ' ',' ',' ','|',' ','Y',' ',' ',' ','Y',' ','|',' ',' '},
+           { ' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' '},
+           { ' ',' ','-','-','-',' ',' ','T',' ',' ','-','-','-',' '},
+           { ' ',' ','-','-','-','_',' ','.',' ','_','-','-','-',' '},
+           { ' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' '}, };
 
-            Console.ForegroundColor = ConsoleColor.Gray;
+        Console.ForegroundColor = ConsoleColor.Gray;
             for (int i = 0; i < Kitten.GetLength(0); i++)
             {
                 for (int j = 0; j < Kitten.GetLength(1); j++)
@@ -278,7 +283,9 @@ namespace ticTacToe
                     Console.Write(" ");
                 }
             }
-
+         Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.SetCursorPosition(1, 1);
+            Console.Write("createdByMurlo");
 
 
 
