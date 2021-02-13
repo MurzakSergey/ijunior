@@ -10,13 +10,40 @@ namespace methods_skill_l3
     {
         static void Main(string[] args)
         {
-        int[] bigWhite = new int[10] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-            Method(bigWhite);
+            int lol = 5;
+            int[] bigWhite = new int[3] {4, 1, 2} ;
+            Random rand = new Random();
+            for(int i=0; i<bigWhite.Length; i++)
+            {
+                bigWhite[i] = rand.Next(1, 100);
+                Console.Write(bigWhite[i] + " ");
+            }
+            Console.WriteLine("\n");
+            for (int i = 0; i < Method(lol, bigWhite).Length; i++)
+            {
+
+                Console.Write(Method(lol, bigWhite)[i]+" ");
+                
+            }
+
+            Console.ReadKey();
+            //Method(lol, bigWhite);
+           // Console.ReadKey();
         }
 
         static void Method(params int[] array)
         {
             Console.WriteLine(array[1]);
+        }
+
+        static int[] Method(int lol, params int[] array)
+        {
+            int[] newArray = new int[3];
+            for (int i = 0; i<newArray.Length; i++)
+            {
+                newArray[i] = lol * array[i];
+            }
+            return newArray;        
         }
     }
 }

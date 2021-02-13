@@ -1,0 +1,7 @@
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\skillbox\methods_skill_l3\methods_skill_l3\methods_skill_l3\bin\Debug\methods_skill_l3.exe.config
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\skillbox\methods_skill_l3\methods_skill_l3\methods_skill_l3\bin\Debug\methods_skill_l3.exe
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\skillbox\methods_skill_l3\methods_skill_l3\methods_skill_l3\bin\Debug\methods_skill_l3.pdb
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\skillbox\methods_skill_l3\methods_skill_l3\methods_skill_l3\obj\Debug\methods_skill_l3.csprojAssemblyReference.cache
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\skillbox\methods_skill_l3\methods_skill_l3\methods_skill_l3\obj\Debug\methods_skill_l3.csproj.CoreCompileInputs.cache
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\skillbox\methods_skill_l3\methods_skill_l3\methods_skill_l3\obj\Debug\methods_skill_l3.exe
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\skillbox\methods_skill_l3\methods_skill_l3\methods_skill_l3\obj\Debug\methods_skill_l3.pdb
