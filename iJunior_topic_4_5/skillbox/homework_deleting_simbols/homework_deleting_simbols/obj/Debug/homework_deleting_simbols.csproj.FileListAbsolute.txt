@@ -1,0 +1,7 @@
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\skillbox\homework_deleting_simbols\homework_deleting_simbols\bin\Debug\homework_deleting_simbols.exe.config
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\skillbox\homework_deleting_simbols\homework_deleting_simbols\bin\Debug\homework_deleting_simbols.exe
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\skillbox\homework_deleting_simbols\homework_deleting_simbols\bin\Debug\homework_deleting_simbols.pdb
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\skillbox\homework_deleting_simbols\homework_deleting_simbols\obj\Debug\homework_deleting_simbols.csprojAssemblyReference.cache
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\skillbox\homework_deleting_simbols\homework_deleting_simbols\obj\Debug\homework_deleting_simbols.csproj.CoreCompileInputs.cache
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\skillbox\homework_deleting_simbols\homework_deleting_simbols\obj\Debug\homework_deleting_simbols.exe
+J:\GameDev\C#\ijunior\iJunior_topic_4_5\skillbox\homework_deleting_simbols\homework_deleting_simbols\obj\Debug\homework_deleting_simbols.pdb
